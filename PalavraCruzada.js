@@ -10,5 +10,3 @@ function resultado(input) {
         input.value = ``;
     }
 }
-
-btnMode.addEventListener('click', changeMode);
