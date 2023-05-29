@@ -14,21 +14,33 @@ html {
 }
 
 body {
-    width: 100vw;
+    width: 97vw;
     min-height: 100vh;
     background-color: #fbfbfb;
     color: #040405;
+    background: url("340434.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cruzadinha-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    position: relative;
+    width: calc(100% - 100px);
+    min-height: calc(100vh - 180px);
+    min-height: 300px;
+    align-items: center;
+    padding: 50px;
+    left: 40px;
+    top: -22vh;
 }
 
 .posicao {
     display: flex;
     justify-content: center;
+    gap: 4vw;
 }
 
 table {
@@ -48,4 +60,35 @@ table {
     font-size:24px;
     text-align:center;
     border: 2px solid #222;
+    text-transform: uppercase;
+  }
+
+  .dicas-box {
+    position: relative;
+    width: calc(100% - 100px);
+    min-height: calc(100vh - 180px);
+    min-height: 300px;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 15px 35px rgba(255,255,255,0.05);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    left: 50px;
+  }
+
+  h1 {
+    margin-left: 5vw;
+    margin-top: 5vh;
+    font-size: 70px;
+    color: #7570c4;
+  }
+
+  h3 {
+     color: #827ecb;
+  }
+
+  .dicas {
+    font-size: 14px;
   }
